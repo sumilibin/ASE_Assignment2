@@ -1,0 +1,49 @@
+body
+{
+padding-left: 600px; 
+padding-top: 200px; 
+ background-color: rgb(171, 169, 169);
+}
+
+.display
+{
+font-size: large;
+text-align:left;
+border-color: white;
+height: 65px; 
+width: 240px;
+}
+
+button
+{
+   
+    background-color: black;
+    color: white;
+    font-size: medium;
+    height: 70px;
+    width: 80px; 
+  
+   flex-wrap: wrap;
+   
+
+}
+
+#AC
+{
+    background-color: darkcyan;
+    border-color:darkcyan ;
+}
+
+.operator
+{
+    background-color: rgb(81, 80, 80);
+    border-color:rgb(13, 13, 13) ;  
+}
+
+.calculator-grid
+{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ; 
+       
+}
